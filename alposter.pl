@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 # # #
-# Alposter: Alpaca flag poster, v1.1
+# Alposter: Alpaca flag poster, v1.2
 # # #
 
 use strict;
@@ -25,7 +25,8 @@ my $final_timeout = 2;
 $| = 1;
 
 print "> Connecting to: $remhost:$port...\n";
-my $sock = IO::Socket::INET->new(	PeerAddr	=> $remhost,
+my $sock = IO::Socket::INET->new(	
+                                  PeerAddr	=> $remhost,
                                   PeerPort	=> $port,
                                   Proto		=> $proto,
                                 )
