@@ -1,2 +1,8 @@
 ===
-This is Alpaca Flag Poster. Hope you'll find it useful.
+This is Alpaca Flag Poster. 
+
+Usage:
+
+  ./alposter.pl [input files]
+
+  If no files are given, Alposter will read from standard input.
